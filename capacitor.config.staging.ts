@@ -6,7 +6,9 @@ const config: CapacitorConfig = {
   server: {
     url: 'https://arm.kimweb.agency',
     cleartext: false,
-    androidScheme: 'https'
+    androidScheme: 'https',
+    // @ts-ignore: appendUserAgent may not be typed in this Capacitor CLI version
+    appendUserAgent: ' KimStationApp'
   }
 };
 export default config;
