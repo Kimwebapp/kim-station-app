@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Kim Station</string>
+    <string name="title_activity_main">Kim Station</string>
+    <string name="package_name">it.kim.station</string>
+    <string name="custom_url_scheme">it.kim.station</string>
+</resources>
