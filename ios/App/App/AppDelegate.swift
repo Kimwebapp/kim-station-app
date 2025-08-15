@@ -7,7 +7,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        // Configura la finestra e imposta MainViewController come root
+        window = UIWindow(frame: UIScreen.main.bounds)
+        let rootVC = MainViewController()
+        window?.rootViewController = rootVC
+        window?.makeKeyAndVisible()
         return true
     }
 

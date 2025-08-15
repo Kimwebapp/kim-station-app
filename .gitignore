@@ -1,27 +1,9 @@
-# Node
 node_modules/
-npm-debug.log*
-yarn.lock
-pnpm-lock.yaml
-
-# Capacitor build outputs
 www/
-build/
-dist/
-
+.DS_Store
 # iOS
 ios/Pods/
-ios/Podfile.lock
 ios/build/
 ios/DerivedData/
-
-# Android
-android/.gradle/
-android/build/
-android/app/build/
-android/local.properties
-
-# OS/Editor
-.DS_Store
-.idea/
-.vscode/
+ios/**/xcuserdata/
+ios/**/project.xcworkspace/xcuserdata/
